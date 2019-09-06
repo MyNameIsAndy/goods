@@ -26,6 +26,7 @@
 		<module>goods-manager</module>
 		<module>goods-test</module>
 		<module>goods-common</module>
+		<module>goods-order</module>
 	</modules>
 
 	<dependencies>
