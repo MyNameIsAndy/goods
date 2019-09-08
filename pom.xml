@@ -27,6 +27,7 @@
 		<module>goods-test</module>
 		<module>goods-common</module>
 		<module>goods-order</module>
+		<module>goods-order-view</module>
 	</modules>
 
 	<dependencies>
