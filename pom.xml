@@ -17,7 +17,6 @@
 		<junit.version>4.12</junit.version>
 		<lombok.version>1.16.18</lombok.version>
 		<jackson.version>2.9.2</jackson.version>
-		<oracle.version>12.1</oracle.version>
 		<spring-cloud.version>Edgware.SR3</spring-cloud.version>
 		<microservice.version>0.0.3</microservice.version>
 	</properties>
@@ -106,12 +105,6 @@
 				<artifactId>junit</artifactId>
 				<version>${junit.version}</version>
 				<scope>test</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>com.oracle</groupId>
-				<artifactId>ojdbc7</artifactId>
-				<version>${oracle.version}</version>
 			</dependency>
 
 			<dependency>
