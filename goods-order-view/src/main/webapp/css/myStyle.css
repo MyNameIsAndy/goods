@@ -1,0 +1,51 @@
+.topbar{ background: #3c8dbd!important;}
+.topbar .panel-body{ border: none}
+.left_bar{ background: #f3f3f3}
+
+.left_bar .panel-header {background: #f9f9f9!important;  border-bottom: 1px solid #e5e5e5}
+.panel-header{ padding: 13px 10px}
+.left_bar  .accordion-header-selected{ background: #f5f7fa!important; box-shadow: none}
+.accordion .accordion-header-selected .panel-title{ color:#2b7dbc; font-weight: bold; }
+.left_bar .panel-title{ color: #616161;  font-size: 14px; font-weight: normal; padding-left:30px;height:18px; line-height: 18px }
+.accordion-body{ background:#FFF!important;}
+
+/*.left_bar.panel-header, .panel-body{ border: none;}*/
+.my-tree .tree-node{ height: 36px}
+.my-tree .tree-node-hover{ background:#e1ebfa }
+.my-tree .tree-node-selected{ background: #e1ebfa; color: #2b7dbc;}
+.my-tree .tree-title{ height: 36px; line-height: 36px; font-size: 13px; color: #616161; font-weight: normal;}
+.my-tree .tree-node-selected .tree-title{color: #2b7dbc}
+.my-tree .tree-file {    height: 28px!important;background:none;  }
+
+/*.panel-body{ background: #edf1f5}*/
+.tableForm th{ font-weight: normal; font-size: 14px; text-align: right; padding: 10px 12px;}
+.table_list{ border: 1px solid #dce0e4; background: #fff!important; margin-top: 15px; }
+.table_list table td{ height: 42px!important;  border-style: solid;   border-color: #ddd; padding: 4px!important;}
+.datagrid-htable tr{ border-top:1px solid #f9f9f9; color: #333; font-weight: bold; }
+.datagrid-btable tr td:first-child{ color: #3598d9!important; height:38px!important; }
+.datagrid-toolbar, .datagrid-pager{ background: #fff!important;}
+.datagrid-row-over{ background: #eef3f6;}
+/*.textbox-label{ text-align: right!important; font-weight: normal; color: #666}
+.textbox { border-radius:2px; padding:0px; width: 139px!important;}
+.textbox-text{ height: 26px!important;}*/
+.select_div{ background: #fafafa; border-radius:0px; margin: 15px 15px 0px 15px; padding:12px; border: 1px solid #D3D3D3;  }
+.select_box{ ;float: left; width: 100%;   margin: 0px }
+.tableForm{ margin-bottom: 10px}
+.select_btn{ margin-top: 10px; }
+.easyui-linkbutton.l-btn{ margin-right: 10px!important;}
+.my_table{ padding: 12px;}
+.my_table .datagrid-header-row td{ height: 30px}
+#detailDialog{ padding: 15px}
+.btn,.btn:hover{ color: #fff!important; font-size: 14px; font-weight: normal; border: none; border-radius: 3px;}
+.btn-small{color: #fff!important; font-size: 14px; font-weight: normal; border: none; border-radius: 3px; height: 20px}
+.blue_btn,.blue_btn:hover{background: #3498db;}
+.red_btn,.red_btn:hover{ background: #e94f43;}
+.orange_btn,.orange_btn:hover{ background: #E9A143;}
+.grey_btn,.grey_btn:hover{ background: #d0d1d5;}
+.btn_div{ padding: 6px}
+.tabs .tabs-inner{ border-radius: 5px 5px 0px 0px!important; background: #fafafa!important;}
+.tabs .tabs-selected .tabs-inner{ background: #fff!important;}
+.spanGreen{ background: #4fb35f; color: #fff; font-size: 12px; border-radius: 15px; padding: 0px 20px}
+.spanOrange{ background: #e9a143; color: #fff; font-size: 12px; border-radius: 15px; padding: 0px 20px}
+.spanRed{ background: #EE4000; font-size: 12px; color: #fff; border-radius: 15px; padding: 0px 20px}
+.spanGray{ background: #303030; font-size: 12px; color: #fff; border-radius: 15px; padding: 0px 20px}
