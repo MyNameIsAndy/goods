@@ -1,4 +1,4 @@
-package com.goods;
+package com.goods.order;
 
 import com.goods.base.BaseBean;
 import lombok.AllArgsConstructor;
@@ -9,17 +9,14 @@ import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 @Data
-@Table(name = "tb_user")
+@Table(name = "tb_item_param_item")
 @NoArgsConstructor
 @AllArgsConstructor
-public class TbUser extends BaseBean {
-    private String userName;
+public class TbItemParamItem extends BaseBean {
 
-    private String password;
+    private Long itemId;
 
-    private String phone;
+    private Date updateTime;
 
-    private String email;
-
-    private String updateTime;
+    private String paramData;
 }

@@ -1,4 +1,4 @@
-package com.goods;
+package com.goods.order;
 
 import com.goods.base.BaseBean;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.goods;
+package com.goods.order;
 
 import com.goods.base.BaseBean;
 import lombok.AllArgsConstructor;
@@ -8,23 +8,15 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
-
 @Data
-@Table(name = "tb_item_cat")
+@Table(name = "tb_item_desc")
 @NoArgsConstructor
 @AllArgsConstructor
-public class TbItemCat extends BaseBean {
-
-    private String parentId;
-
-    private String name;
-
-    private String status;
-
-    private String sortOrder;
-
-    private String isParent;
+public class TbItemDesc extends BaseBean {
+    private String itemId;
 
     private String updateTime;
+
+    private String itemDesc;
 
 }

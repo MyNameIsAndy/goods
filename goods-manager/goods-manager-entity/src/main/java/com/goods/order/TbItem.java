@@ -1,4 +1,4 @@
-package com.goods;
+package com.goods.order;
 
 import com.fasterxml.jackson.databind.ser.Serializers;
 import com.goods.base.BaseBean;
