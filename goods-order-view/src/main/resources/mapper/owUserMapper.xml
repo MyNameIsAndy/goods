@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.goods.mapper.ow.OwUserMapper">
+
+
+    <!--下面两个select用于UserRealm验证-->
+    <!-- 根据用户名字查询相应角色Code -->
+    <select id="findRolesCodeByUsername" parameterType="string" resultType="string">
+        SELECT r.role_code
+          FROM ow_user u, ow_role r, ow_User_role ur
+         where u.id = ur.user_id
+           and r.id = ur.role_id
+           and u.username = #{username}
+
+    </select>
+    <!-- 根据用户名字查询相应权限Code -->
+    <select id="findPermissionsCodeByUsername" parameterType="string" resultType="string">
+    SELECT p.perm_code
+      FROM ow_user u, ow_role r, ow_User_role ur,ow_permission p,ow_role_permission rp
+     where u.id = ur.user_id
+       and r.id = ur.role_id
+       and r.id=rp.role_id
+       and u.username=#{username}
+    </select>
+</mapper>
