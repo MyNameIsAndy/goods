@@ -1,9 +1,9 @@
-package com.goods.service.impl;
+package com.goods.service.ow.impl;
 
 
-import com.goods.mapper.OwUserMapper;
-import com.goods.service.OwUserService;
-import com.goods.sys.OwUser;
+import com.goods.mapper.ow.OwUserMapper;
+import com.goods.service.ow.OwUserService;
+import com.goods.common.OwUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
