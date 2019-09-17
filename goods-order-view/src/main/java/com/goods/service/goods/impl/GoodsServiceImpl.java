@@ -2,7 +2,7 @@ package com.goods.service.goods.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.goods.mapper.goods.GoodsMapper;
+import com.goods.mapper.goods.GoodsOrderMapper;
 import com.goods.model.DataGrid;
 import com.goods.order.TbItem;
 import com.goods.service.goods.GoodsService;
@@ -10,7 +10,6 @@ import com.goods.util.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +24,7 @@ import java.util.List;
 @Slf4j
 public class GoodsServiceImpl implements GoodsService {
     @Autowired
-    private GoodsMapper goodsMapper;
+    private GoodsOrderMapper goodsMapper;
     @Override
     public DataGrid findPage(Integer page, Integer rows) {
         List<TbItem> tbItems = new ArrayList<>();

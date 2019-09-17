@@ -4,7 +4,7 @@ import com.goods.config.WebConfig;
 import com.goods.controller.base.BaseController;
 import com.goods.model.Result;
 import com.goods.service.ow.OwUserService;
-import com.goods.sys.OwUser;
+import com.goods.common.OwUser;
 import com.goods.util.ResultUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;

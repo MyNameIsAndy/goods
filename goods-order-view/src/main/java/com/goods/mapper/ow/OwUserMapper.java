@@ -1,7 +1,7 @@
 package com.goods.mapper.ow;
 
 import com.goods.baseDao.BaseMapper;
-import com.goods.sys.OwUser;
+import com.goods.common.OwUser;
 
 import java.util.Set;
 

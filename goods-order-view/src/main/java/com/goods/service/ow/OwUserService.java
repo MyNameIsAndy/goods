@@ -1,7 +1,6 @@
 package com.goods.service.ow;
 
-import com.goods.order.TbUser;
-import com.goods.sys.OwUser;
+import com.goods.common.OwUser;
 
 import java.util.Set;
 

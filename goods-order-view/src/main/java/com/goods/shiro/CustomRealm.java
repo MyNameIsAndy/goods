@@ -1,7 +1,7 @@
 package com.goods.shiro;
 
 import com.goods.service.ow.OwUserService;
-import com.goods.sys.OwUser;
+import com.goods.common.OwUser;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
