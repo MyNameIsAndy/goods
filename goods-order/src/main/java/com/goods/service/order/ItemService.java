@@ -20,5 +20,5 @@ public interface ItemService {
      * 查询所有商品信息
      * @return
      */
-    List<TbItem> findAll();
+    void findAll();
 }
