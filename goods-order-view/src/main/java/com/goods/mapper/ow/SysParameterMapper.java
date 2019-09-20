@@ -1,7 +1,7 @@
 package com.goods.mapper.ow;
 
 import com.goods.baseDao.BaseMapper;
-import com.goods.common.SysParameter;
+import com.goods.common.sys.SysParameter;
 
 /**
  * @Classname SysParameter
