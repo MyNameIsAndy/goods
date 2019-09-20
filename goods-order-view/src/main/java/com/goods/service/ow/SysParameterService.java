@@ -1,7 +1,7 @@
 package com.goods.service.ow;
 
 
-import com.goods.common.SysParameter;
+import com.goods.common.sys.SysParameter;
 
 import java.util.List;
 

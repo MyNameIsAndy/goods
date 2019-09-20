@@ -2,7 +2,7 @@ package com.goods.service.ow.impl;
 
 import com.goods.mapper.ow.SysParameterMapper;
 import com.goods.service.ow.SysParameterService;
-import com.goods.common.SysParameter;
+import com.goods.common.sys.SysParameter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
