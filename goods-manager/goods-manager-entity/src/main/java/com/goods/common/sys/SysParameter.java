@@ -1,4 +1,4 @@
-package com.goods.common;
+package com.goods.common.sys;
 
 import com.goods.base.BaseBean;
 import lombok.AllArgsConstructor;
