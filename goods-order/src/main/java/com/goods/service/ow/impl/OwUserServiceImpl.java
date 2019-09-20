@@ -3,7 +3,7 @@ package com.goods.service.ow.impl;
 
 import com.goods.mapper.ow.OwUserMapper;
 import com.goods.service.ow.OwUserService;
-import com.goods.common.OwUser;
+import com.goods.common.ow.OwUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
