@@ -1,6 +1,5 @@
 package com.goods.service.order.impl;
 
-import com.goods.common.SysParameter;
 import com.goods.mapper.order.ItemMapper;
 import com.goods.order.TbItem;
 import com.goods.redis.RedisKey;
@@ -11,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Map;
 
 @Service
 @Slf4j
