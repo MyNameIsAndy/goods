@@ -1,6 +1,6 @@
 package com.goods.service.ow;
 
-import com.goods.common.OwUser;
+import com.goods.common.ow.OwUser;
 
 /**
  *
