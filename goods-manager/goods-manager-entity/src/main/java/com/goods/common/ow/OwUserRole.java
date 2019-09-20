@@ -1,4 +1,4 @@
-package com.goods.common;
+package com.goods.common.ow;
 
 import com.goods.base.BaseBean;
 import lombok.AllArgsConstructor;
@@ -8,16 +8,17 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Table;
 
 /**
- * @Classname OwRolePermission
- * @Description 角色资源关联
+ * @Classname OwUserRole
+ * @Description 用户角色
  * @Date 2019/9/14 8:49
  * @Created by andy
  */
-@Table(name = "OW_ROLE_PERMISSION")
+@Table(name = "OW_USER_ROLE")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class OwRolePermission extends BaseBean {
-    private String role_id;
-    private String permission_id;
+public class OwUserRole extends BaseBean {
+    private String userId;
+    private String roleId;
+    private String updateTime;
 }

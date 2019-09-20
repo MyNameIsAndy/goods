@@ -14,5 +14,5 @@ import javax.persistence.Table;
 public class SysState extends BaseBean{
     private String code;
     private String name;
-    private String desc;
+    private String sysDesc;
 }
