@@ -1,13 +1,12 @@
 package com.goods.service.sys.impl;
 
-import com.goods.common.SysParameter;
+import com.goods.common.sys.SysParameter;
 import com.goods.mapper.sys.SysParameterMapper;
 import com.goods.redis.RedisKey;
 import com.goods.redis.util.RedisUtil;
 import com.goods.service.sys.SysParameterService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.session.SessionProperties;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
