@@ -4,7 +4,14 @@ import lombok.Getter;
 
 @Getter
 public enum  State {
-    SUCCESS_CODE("10000");
+    /**
+     * 成功
+     */
+    SUCCESS_CODE("10000"),
+
+
+
+    ;
 
     private String code;
     State(String code){
