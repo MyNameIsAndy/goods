@@ -13,7 +13,7 @@ import javax.persistence.Table;
  * @Date 2019/9/15 17:48
  * @Created by andy
  */
-@Table(name = "SYS_PARAMETRS")
+@Table(name = "sys_parameter")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
