@@ -58,7 +58,7 @@ public class ResponseBody {
         ResponseInfo responseInfo = new ResponseInfo();
         ResponseBody responseBody = new ResponseBody();
         responseBody.setState(State.SUCCESS_CODE.getCode());
-        responseBody.setMessage(responseBody.sysStateService.findMessageByState(State.SUCCESS_CODE));
+        responseBody.setMessage(responseBody.sysStateService.findMessageByCode(State.SUCCESS_CODE));
         responseBody.setSerialNo(serialNo);
         responseBody.setTime(DateTimeUtil.getCurrentDate(3));
         generateSigned(responseInfo,responseBody,comNo);
@@ -85,6 +85,15 @@ public class ResponseBody {
     public static ResponseInfo error(String serialNo,String comNo,State state,String message){
         return getRespInfo(serialNo,state,message,"",comNo);
     }
+    /**
+     * 失败
+     * @param serialNo
+     * @param comNo
+     * @return
+     */
+    public static ResponseInfo error(String serialNo,String comNo,String state,String message){
+        return getRespInfo(serialNo,state,message,"",comNo);
+    }
 
     public static ResponseInfo error(String serialNo,String comNo,State state,String message,Object content){
         ResponseInfo responseInfo = new ResponseInfo();
@@ -105,6 +114,21 @@ public class ResponseBody {
         responseBody.setMessage(msg);
         responseBody.setTime(DateTimeUtil.getCurrentDate(3));
         return responseBody;
+    }
+    private static ResponseInfo getRespInfo(String serialNo,String state,String message,Object content,String comNo){
+        ResponseInfo responseInfo = new ResponseInfo();
+        ResponseBody responseBody = new ResponseBody();
+        responseBody.setTime(DateTimeUtil.getCurrentDate(3));
+        responseBody.setState(state);
+        String msg = responseBody.sysStateService.findMessageByCode(state);
+        if(StringUtil.isNotEmpty(message)){
+            msg =msg +","+message;
+        }
+        responseBody.setMessage(msg);
+        responseBody.setSerialNo(serialNo);
+        responseBody.setContent(content);
+        generateSigned(responseInfo,responseBody,comNo);
+        return responseInfo;
     }
     private static ResponseInfo getRespInfo(String serialNo,State state,String message,Object content,String comNo){
         ResponseInfo responseInfo = new ResponseInfo();

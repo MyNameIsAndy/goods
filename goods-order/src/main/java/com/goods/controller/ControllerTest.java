@@ -1,5 +1,6 @@
 package com.goods.controller;
 
+import com.goods.common.vo.ResponseInfo;
 import com.goods.order.TbItem;
 import com.goods.json.JsonUtil;
 import com.goods.redis.RedisKey;
@@ -9,15 +10,17 @@ import com.goods.service.ow.OwUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import javax.servlet.http.HttpServletRequest;
+
+@RestController
+@RequestMapping("tbItme")
 public class ControllerTest {
     @Autowired
     private ItemService itemService;
-    @Autowired
-    private RedisUtil redisUtil;
-    @RequestMapping("order_info")
-    public String test(){
-        return "";
+    @RequestMapping("/itemInfoCache")
+    public ResponseInfo itemCache(HttpServletRequest request ,String parameter){
+
     }
 }

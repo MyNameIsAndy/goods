@@ -1,8 +1,10 @@
 package com.goods.service.order;
 
 
+import com.goods.common.vo.ResponseInfo;
 import com.goods.order.TbItem;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -17,8 +19,8 @@ public interface ItemService {
     TbItem getBeanById(String id);
 
     /**
-     * 查询所有商品信息
+     * 加载所有商品到缓存
      * @return
      */
-    void findAll();
+    ResponseInfo loadItemcheck(HttpServletRequest request,String parameter);
 }
