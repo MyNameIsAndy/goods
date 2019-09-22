@@ -13,7 +13,7 @@ public class BaseBean {
     private String createTime;
     private String remark;
     public BaseBean(){
-        initId();
+       // initId();
         initCreateTime();
     }
     //自动生成主键
