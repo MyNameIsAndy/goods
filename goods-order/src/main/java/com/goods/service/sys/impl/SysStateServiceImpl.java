@@ -43,7 +43,7 @@ public class SysStateServiceImpl implements SysStateService {
     }
 
     @Override
-    public String findMessageByState(State state) {
+    public String findMessageByCode(State state) {
         String code = state.getCode();
         String messageByCode = findMessageByCode(code);
         return messageByCode;

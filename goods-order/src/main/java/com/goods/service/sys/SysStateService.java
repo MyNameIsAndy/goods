@@ -18,5 +18,5 @@ public interface SysStateService {
      * @param state
      * @return
      */
-    String findMessageByState(State state);
+    String findMessageByCode(State state);
 }
