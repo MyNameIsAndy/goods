@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<fastjson.version>1.1.41</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 		<jaxen.version>1.1.1</jaxen.version>
 		<networknt.version>0.1.10</networknt.version>
 		<kjetland.version>1.0.24</kjetland.version>
