@@ -19,7 +19,7 @@
 		<jaxen.version>1.1.1</jaxen.version>
 		<networknt.version>0.1.10</networknt.version>
 		<kjetland.version>1.0.24</kjetland.version>
-		<jsch.version>0.1.53</jsch.version>
+		<jsch.version>0.1.54</jsch.version>
 		<dom4j.version>1.6.1</dom4j.version>
 		<httpclient.version>3.1</httpclient.version>
 		<ant.version>1.9.4</ant.version>
